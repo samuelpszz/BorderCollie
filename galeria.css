@@ -1,0 +1,21 @@
+
+#galeria-p{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #191919; 
+}
+
+.div-imegenes{
+    padding-left: 3rem;
+    
+
+}
+
+#img-galeria{
+    padding-top: 20px;
+    padding-left: 0px;    
+
+    width: 90%;
+    display: inline-block;
+
+}

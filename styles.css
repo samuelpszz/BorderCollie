@@ -1,0 +1,115 @@
+@import url(quienesSomos.css);
+@import url(galeria.css);
+@import url(footer.css);
+
+body{
+    margin: 0;   
+    box-sizing: border-box; 
+}
+a{
+    font-size: 19px;
+    color: #191919;}
+h1{ 
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style:oblique;
+}
+h2{
+    font-size: 25px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #191919; 
+    text-transform: uppercase;
+    text-align: center;
+}
+h3{
+    font-size: 2em; 
+    color: #191919;
+} 
+
+
+/*pagina principal pg1*/
+.conthero{
+    background-color: #f6f6f6;  
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 1700px;
+}
+
+#logo{
+    padding-top: 5px;
+    padding-left: 20px;
+    width: 50px;
+    display: inline-block;
+}
+
+nav{
+    padding-left: 8rem;
+}
+#navLinks{
+
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+#navLinks:hover{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    padding: 3px;
+    transition: 0.1s;
+    font-size: 19px;
+}
+
+@media screen and (min-width: 300px) {
+    nav{
+        padding-left: 3.5rem;
+    }    
+}
+@media screen and (min-width: 500px) {
+    nav{
+        padding-left: 8rem;
+    }    
+}
+@media screen and (min-width: 750px) {
+    nav{
+        padding-left: 20rem;
+    }    
+}
+@media screen and (min-width: 1000px) {
+    nav{
+        padding-left: 55rem;
+    }    
+}
+/*pg1*/
+
+#hero{
+    background-color:rgb(21, 206, 76);
+    display: flex;
+
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+button{
+    margin-top: 300px;
+
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+
+    border-radius: 25px;
+    background-color: rgb(4, 154, 255);
+    border: 2px solid #222222;
+    box-shadow: 2px 2px 10px #222;
+}
+button:hover{
+    background-color: #ffffff;
+    border: 1px solid rgb(4, 154, 255);
+    box-shadow: 3px 3px 15px rgb(255, 255, 255);
+}
